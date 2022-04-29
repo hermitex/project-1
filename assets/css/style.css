@@ -31,11 +31,11 @@ p {
 
 /* ................ Font color Settings ................ */
 .text-secondary {
-    color: #ff1818;
+  color: #ff1818;
 }
 
 .text-primary {
-    color: #000;
+  color: #000;
 }
 
 /* ................ Links settings ................ */
@@ -68,6 +68,8 @@ li {
   outline: none;
   border: none;
   cursor: pointer;
+  box-shadow: rgba(165, 35, 35, 0.25) 0px 14px 28px,
+    rgba(150, 31, 31, 0.22) 0px 10px 10px;
 }
 
 .btn-primary button:hover {
@@ -109,7 +111,7 @@ ul.nav.nav-tabs li:last-child {
 }
 
 .item-container {
-    width: 80vw;
+
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -117,10 +119,46 @@ ul.nav.nav-tabs li:last-child {
   align-content: center;
 }
 
+.heading{
+    display: inline-flex;
+    align-items: baseline;
+    margin-right: 4rem;
+}
+
+.heading h1{    
+    margin-right: 0.5rem;
+}
+
+.project.project-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .item-container:nth-child(odd) {
   flex-direction: row-reverse;
-  
 }
 .story-container {
-    max-width: 20rem;
+  max-width: 20rem;
+}
+
+/* ................ Technical Mentors ................ */
+.mentor-container div {
+   margin-bottom: 1rem;
+   padding: 0.1rem;
+  }
+
+.mentor-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 0.2rem; 
+}
+
+
+
+/* ............... Media ........... */
+@media (min-width: 960px) {
+  .mentor-container {
+     grid-template-columns: repeat(4, 1fr);
+  }
 }
