@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ................ Font family ................ */
+html,
+body {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 2rem;
+}
+
+/* ................ main container setttings ................ */
+.wrapper {
+  padding: 1rem 5rem;
+}
+
+/*................ Font settings ................ */
+small {
+  color: gray;
+}
+
+h1.title {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* ................ Font color Settings ................ */
+.text-secondary {
+    color: #ff1818;
+}
+
+.text-primary {
+    color: #000;
+}
+
+/* ................ Links settings ................ */
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: gray;
+}
+a:hover {
+  color: black;
+}
+a:visited {
+  color: lightgreen;
+}
+
+/* ................ list settings ................ */
+li {
+  list-style: none;
+}
+
+/* ................ Primary Button ................ */
+.btn-primary button {
+  background-color: #ff1818;
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary button:hover {
+  background-color: #ac3a3a;
+}
+
+button.btn-secondary {
+  background-color: #fff;
+  border: 1px solid #ff1818;
+  color: black;
+}
+
+button.btn-secondary:hover {
+  border: 1px solid #ff1818;
+  color: white;
+}
+
+/* ................ nav ................ */
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+ul.nav.nav-tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+}
+
+ul.nav.nav-tabs li {
+  margin: 0 0.5rem;
+}
+
+ul.nav.nav-tabs li:last-child {
+  margin: 0;
+}
+
+.item-container {
+    width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: center;
+}
+
+.item-container:nth-child(odd) {
+  flex-direction: row-reverse;
+  
+}
+.story-container {
+    max-width: 20rem;
+}

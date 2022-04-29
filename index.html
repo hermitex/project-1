@@ -4,43 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
     <title>Moringa School Landing Page</title>
   </head>
   <body>
     <nav class="navbar">
-      <div><h1>Moringa School</h1></div>
+      <h1 class="story-title text-secondary logo">Moringa <span style="color: black">School</span></h1>
+     
       <ul class="nav nav-tabs">
         <li class="link-item active"><a href="http://#">Courses</a></li>
         <li class="link-item active"><a href="http://#">Our Projects</a></li>
         <li class="link-item active"><a href="http://#">Stories</a></li>
-        <li><button>Enroll</button></li>
+        <li class="btn btn-primary"><button >Enroll</button></li>
       </ul>
     </nav>
+
     <div class="wrapper">
-      <div class="container-1 stories-container">
-        <div class="iheading">
-          <h1>Stories</h1>
-          <small>So many memories</small>
-        </div>
-        <div class="item-container tem-1">
-          <div class="item item-left"><img src="" alt="stories" /></div>
-          <div class="item item-right">
-            <div class="story-content">
-              <h1 class="story-title">Moringa</h1>
-              <p class="content">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                Consequatur quia quam repellat quibusdam perspiciatis incidunt
-                ipsum vel reiciendis deleniti officiis.
-              </p>
-            </div>
-            <div class="button-container btn-primary">
-              <button>Enroll Now</button>
-              <button>Explore</button>
-            </div>
+      <div class="item-container tem-1">
+        <div class="item item-left"><img src="./assets/images/woman.png" alt="moringa" /></div>
+        <div class="item item-right">
+          <div class="story-content">
+            <div><h1 class="text-small">Moringa</h1></div>
+            <div><h1 class="title text-secondary">Nurturing Africa's Tech Talent</h1></div>
+            <p class="content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur quia quam repellat quibusdam perspiciatis incidunt
+              ipsum vel reiciendis deleniti officiis.
+            </p>
+          </div>
+          <div class="button-container btn-primary">
+            <button>Enroll Now</button>
+            <button class="btn btn-secondary">Explore</button>
           </div>
         </div>
+      </div>
+
+      <div class="container-1 stories-container">
+        <div class="heading">
+          <h1>Stories</h1>
+          <small>So many memories</small>
+        </div>       
         <div class="item-container item-2">
-          <div class="item item-left"><img src="" alt="stories" /></div>
+          <div class="item item-left"><img src="./assets/images/studentscoding.jpeg" alt="stories" /></div>
           <div class="item item-right">
             <div class="story-content">
               <h1 class="story-title">Orientation day</h1>
@@ -56,7 +67,7 @@
           </div>
         </div>
         <div class="item-container item-3">
-          <div class="item item-left"><img src="" alt="stories" /></div>
+          <div class="item item-left"><img src="./assets/images/boardingmeeting.jpeg" alt="stories" /></div>
           <div class="item item-right">
             <div class="story-content">
               <h1 class="story-title">Boarding Meeting</h1>
@@ -72,7 +83,7 @@
           </div>
         </div>
         <div class="item-container item-4">
-          <div class="item item-left"><img src="" alt="stories" /></div>
+          <div class="item item-left"><img src="./assets/images/graduation.jpeg" alt="stories" /></div>
           <div class="item item-right">
             <div class="story-content">
               <h1 class="story-title">Graduation Party</h1>
