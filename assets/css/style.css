@@ -34,7 +34,7 @@ body {
   height: 19rem;
 } */
 
-.stories-container .item-3 .item-left {
+/* .stories-container .item-3 .item-left {
   opacity: 0.85;
   background-image: url("../images/image\ 3.png");
   background-repeat: no-repeat;
@@ -52,7 +52,7 @@ body {
   background-position: center;
   width: 30rem;
   height: 19rem;
-}
+} */
 
 .item.item-left:hover {
   opacity: 0.95;
