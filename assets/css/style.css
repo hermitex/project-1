@@ -13,15 +13,15 @@ body {
 
 /* ................ main container setttings ................ */
 .wrapper {
-  padding: 3rem 15rem;
+  padding: 3rem 10rem;
 }
 
 .stories-container .item-left {
   display: flex;
-flex-direction: column;
-justify-content: center;
+  flex-direction: column;
+  justify-content: center;
 
-  color: #FFF;
+  color: #fff;
 }
 
 .stories-container .item-2 .item-left {
@@ -107,7 +107,7 @@ li {
 /* ................ Primary Button ................ */
 .btn-primary button,
 .btn-secondary button {
-  background-color:  #EC4067;
+  background-color: #ec4067;
   padding: 0.5rem 1.5rem;
   color: #fff;
   font-size: 1.1rem;
@@ -216,6 +216,10 @@ ul.nav.nav-tabs li:last-child {
     "story story";
 }
 
+ .item-container{
+    margin-bottom: 7rem;
+}
+
 .item-2 > .item-left {
   grid: media;
 }
@@ -249,8 +253,8 @@ ul.nav.nav-tabs li:last-child {
 }
 
 .project-item.project-right img {
-    width: 20rem;
-  }
+  width: 20rem;
+}
 
 /* ................ Technical Mentors ................ */
 .mentor-container div {
@@ -271,13 +275,11 @@ ul.nav.nav-tabs li:last-child {
   font-size: 1.2rem;
 }
 
+.mentor-img img {
+  opacity: 0.85;
 
-.mentor-img img{
-    opacity: 0.85;
- 
-     width: 30rem;
-  
-  }
+  width: 30rem;
+}
 /* ............... Media ........... */
 @media (min-width: 960px) {
   .mentor-container {
@@ -302,29 +304,26 @@ ul.nav.nav-tabs li:last-child {
 
   .stories-container .item-right p {
     width: 100%;
-  
   }
 
   .stories-container .item-container div.item-left {
-  display: inline-block;
-  width: 100%;
-    
+    display: inline-block;
+    width: 100%;
   }
 
- .mentor-img img{
+  .mentor-img img {
     opacity: 0.85;
- 
-     width: 15rem;
-  
+
+    width: 15rem;
   }
 
   .project-item.project-right img {
     width: 50rem;
   }
 
-
-
-
+  .m-lg-left {
+      margin-left: 1.5rem;
+  }
 }
 
 @media screen and (min-width: 968px) {
