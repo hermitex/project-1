@@ -24,15 +24,7 @@ body {
   color: #fff;
 }
 
-/* .stories-container .item-2 .item-left {
-  opacity: 0.85;
-  background-image: url("../images/image\ 2.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 30rem;
-  height: 19rem;
-} */
+
 
 /* .stories-container .item-3 .item-left {
   opacity: 0.85;
@@ -318,7 +310,7 @@ ul.nav.nav-tabs li:last-child {
   }
 
   .project-item.project-right img {
-    width: 50rem;
+    width: 40rem;
   }
 
   .m-lg-left {
