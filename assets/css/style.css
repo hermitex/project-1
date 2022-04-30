@@ -216,8 +216,8 @@ ul.nav.nav-tabs li:last-child {
     "story story";
 }
 
- .item-container{
-    margin-bottom: 7rem;
+.item-container {
+  margin-bottom: 7rem;
 }
 
 .item-2 > .item-left {
@@ -322,9 +322,18 @@ ul.nav.nav-tabs li:last-child {
   }
 
   .m-lg-left {
-      margin-left: 1.5rem;
+    margin-left: 1.5rem;
   }
 }
 
-@media screen and (min-width: 968px) {
+@media screen and (max-width: 968px) {
+  .d-sm-none {
+    display: none;
+  }
+
+  ul.nav.nav-tabs{
+      display: flex;
+      justify-content: space-between;
+  }
+
 }
