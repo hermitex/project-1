@@ -13,7 +13,12 @@ body {
 
 /* ................ main container setttings ................ */
 .wrapper {
-  padding: 3rem 15rem;
+overflow-x: hidden;
+}
+
+.px{
+  padding-left: 15rem;
+  padding-right: 15rem;
 }
 
 .stories-container .item-left {
@@ -21,7 +26,7 @@ body {
 flex-direction: column;
 justify-content: center;
 
-  color: #FFF;
+  color: #FFF;g
 }
 
 .stories-container .item-2 .item-left {
