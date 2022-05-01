@@ -8,8 +8,8 @@
 
 ## Table of Content
 - [Moringa School Landing Page](#moringa-school-landing-page)
-      - [A simple static page to showcase MOringa School Landing Page, 01/05/2022](#a-simple-static-page-to-showcase-moringa-school-landing-page-01052022)
-      - [By Tiberius Mairura](#by-tiberius-mairura-the-hermit)
+      - [A simple static page(Moringa School Landing Page), 01/05/2022](#a-simple-static-pagemoringa-school-landing-page-01052022)
+      - [By Tiberius Mairura (The Hermit)](#by-tiberius-mairura-the-hermit)
   - [Screenshot](#screenshot)
   - [Table of Content](#table-of-content)
   - [Description](#description)
@@ -46,7 +46,7 @@ As a user you should be able to see:
  ****
 [Go Back to the top](#moringa-school-landing-page)
 ### Live Link
-- Click this link to view the live application https://albert-byrone.github.io/delani/
+- Click this link to view the live application https://hermitex.github.io/project-1/
 ### Technology  Used
 * HTML -to develop the structure off the page
 * CSS - to style the User Interface
