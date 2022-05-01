@@ -1,3 +1,4 @@
+/* ................ Ressetting Defaults ................ */
 * {
   margin: 0;
   padding: 0;
@@ -18,6 +19,11 @@ body {
   overflow-x: hidden;
 }
 
+.wrapper > div {
+  margin-bottom: 4rem;
+}
+
+/* ................ stories container setttings ................ */
 .stories-container .item-left {
   display: block;
   color: #fff;
@@ -62,9 +68,7 @@ body {
   cursor: pointer;
 }
 
-.wrapper > div {
-  margin-bottom: 4rem;
-}
+
 /*................ Font settings ................ */
 small {
   color: gray;
@@ -113,11 +117,11 @@ li {
   list-style: none;
 }
 
-/* ................ Primary Button ................ */
+/* ................ Buttons ................ */
 .btn-primary button,
 .btn-secondary button {
   background-color: #ec4067;
-  padding: 0.9rem 1.8rem;
+  padding: 0.5rem 1.5rem;
   color: #fff;
   font-size: 1.1rem;
   border-radius: 10px;
@@ -223,7 +227,6 @@ ul.nav.nav-tabs li:last-child {
 .stories-container .story-content p,
 .stories-container .story-content h1,
 .stories-container .story-content div {
-  /* margin-bottom: 2.5rem; */
   margin-top: 2.5rem;
 }
 
@@ -231,7 +234,6 @@ ul.nav.nav-tabs li:last-child {
 .project-container .project-item p,
 .project-container .project-item h1,
 .project-container .project-item div {
-  /* margin-bottom: 2.5rem; */
   margin-top: 2rem;
 }
 
@@ -466,6 +468,13 @@ ul.nav.nav-tabs li:last-child {
     margin-top: -3rem;
     margin-left: 17rem;
   }
+
+  .btn-primary button,
+.btn-secondary button {
+  
+  padding: 0.9rem 1.8rem;
+  
+}
 
   .footer {
     display: flex;
