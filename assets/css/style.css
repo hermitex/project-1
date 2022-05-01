@@ -21,12 +21,22 @@ body {
 .stories-container .item-left {
   display: block;
   color: #fff;
+  padding: 50px;
+  transition: transform 0.2s;
+}
+
+.stories-container .item-left {
+  padding-left: 0;
+}
+
+.stories-container .item-left:hover {
+  transform: scale(1.05);
 }
 
 .stories-container .date {
   display: block;
   position: absolute;
-  margin-top: -5rem;
+  margin-top: -3rem;
   margin-left: 1rem;
 }
 
@@ -34,7 +44,17 @@ body {
   display: block;
   position: absolute;
   margin-top: -20rem;
-  margin-left: 27rem;
+  margin-left: 15rem;
+}
+
+.stories-container .item-3 .number {
+  margin-top: -20rem;
+  margin-left: 1rem;
+}
+
+.item-3 .item.item-left .date {
+  margin-top: -3rem;
+  margin-left: 5rem;
 }
 
 .item.item-left:hover {
@@ -397,6 +417,30 @@ ul.nav.nav-tabs li:last-child {
   .mentor-img:hover ~ .mentor-content .name {
     visibility: visible;
     opacity: 1;
+  }
+
+  .stories-container .date {
+    display: block;
+    position: absolute;
+    margin-top: -3rem;
+    margin-left: 1rem;
+  }
+
+  .stories-container .number {
+    display: block;
+    position: absolute;
+    margin-top: -20rem;
+    margin-left: 28rem;
+  }
+
+  .stories-container .item-3 .number {
+    margin-top: -20rem;
+    margin-left: 1rem;
+  }
+
+  .item-3 .item.item-left .date {
+    margin-top: -3rem;
+    margin-left: 17rem;
   }
 }
 
