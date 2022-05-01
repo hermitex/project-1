@@ -368,7 +368,7 @@ ul.nav.nav-tabs li:last-child {
 /* ............... Media ........... */
 @media (min-width: 960px) {
   .wrapper {
-    width: 70vw;
+    width: 75vw;
     margin: 5rem auto;
     overflow-x: hidden;
   }
