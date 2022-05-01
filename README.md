@@ -1,7 +1,7 @@
 # Moringa School Landing Page
 #### A simple static page(Moringa School Landing Page), 01/05/2022
 
-#### By Tiberius Mairura (The Hermit)
+#### By Tiberius Mairura
 
 ## Screenshot
 ![image](./assets/images/screenshot-1.png)
@@ -9,7 +9,7 @@
 ## Table of Content
 - [Moringa School Landing Page](#moringa-school-landing-page)
       - [A simple static page(Moringa School Landing Page), 01/05/2022](#a-simple-static-pagemoringa-school-landing-page-01052022)
-      - [By Tiberius Mairura (The Hermit)](#by-tiberius-mairura-the-hermit)
+      - [By Tiberius Mairura](#by-tiberius-mairura)
   - [Screenshot](#screenshot)
   - [Table of Content](#table-of-content)
   - [Description](#description)
