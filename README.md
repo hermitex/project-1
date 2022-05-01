@@ -2,7 +2,7 @@
 #### A simple static page to showcase MOringa School Landing Page, 01/05/2022
 #### By Tiberius Mairura (The Hermit)
 ## Description
-This is a simpe static page built using plain HTML and CSS to shocase my skills after one week of learning at Moringa School Access Program.
+This is a responsive static page built using plain HTML and CSS to shocase my skills after one week of learning at Moringa School Access Program.
 The page was built from scratch based the design provided by the Technical Mentor at Moringa School. 
 ## Setup/Installation Requirements
 * Fork and clone the repository from this repository or simply dowload the repository and unzip it on your local machine
