@@ -262,7 +262,8 @@ ul.nav.nav-tabs li:last-child {
 .heading {
   display: inline-flex;
   align-items: baseline;
-  margin-right: 4rem;
+  margin-right: 0.5rem;
+  width: 100%;
 }
 
 .heading h1 {
