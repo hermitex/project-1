@@ -1,5 +1,6 @@
 # Moringa School Landing Page
-#### A simple static page to showcase MOringa School Landing Page, 01/05/2022
+#### A simple static page(Moringa School Landing Page), 01/05/2022
+
 #### By Tiberius Mairura (The Hermit)
 
 ## Screenshot
