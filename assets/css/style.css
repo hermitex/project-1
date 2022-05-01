@@ -163,7 +163,8 @@ ul.nav.nav-tabs {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  justify-items: center;
+  justify-content: center;
+  align-content: center;
 }
 
 ul.nav.nav-tabs li {
