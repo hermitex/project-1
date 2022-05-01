@@ -13,21 +13,22 @@ body {
 
 /* ................ main container setttings ................ */
 .wrapper {
-  padding: 3rem 10rem;
+ width: 80vw;
+ margin: 0 auto;
+ overflow-x: hidden;
 }
 
 .stories-container .item-left {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   color: #fff;
 }
 
 
 
 /* .stories-container .item-3 .item-left {
-  opacity: 0.85;
+  opacity: 0.80;
   background-image: url("../images/image\ 3.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -37,7 +38,7 @@ body {
 }
 
 .stories-container .item-4 .item-left {
-  opacity: 0.85;
+  opacity: 0.80;
   background-image: url("../images/image\ 4.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -99,7 +100,7 @@ li {
 /* ................ Primary Button ................ */
 .btn-primary button,
 .btn-secondary button {
-  background-color: #ec4067;
+  background-color: #EC4067;
   padding: 0.5rem 1.5rem;
   color: #fff;
   font-size: 1.1rem;
@@ -117,13 +118,13 @@ li {
 
 .btn-secondary button {
   background-color: #fff;
-  border: 1px solid #ff1818;
+  border: 1px solid #EC4067;
   color: black;
 }
 
 .btn-secondary button:hover {
-  background-color: #ac3a3a;
-  border: 1px solid #ff1818;
+  background-color: #EC4067;
+  border: 1px solid #fff;
   color: white;
 }
 
@@ -154,6 +155,19 @@ ul.nav.nav-tabs li:last-child {
 .title.text-secondary {
   font-weight: 200;
   font-size: 2rem;
+  width: 90%;
+}
+
+
+
+.main-item .item.item-right{
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+.main-item img {
+width: 100%;
+
 }
 
 .main-item {
@@ -183,6 +197,10 @@ ul.nav.nav-tabs li:last-child {
   margin-right: 1rem;
 }
 
+.main-item .content p{
+  width: 80vw;
+}
+
 /* ................ Stories ................ */
 
 .stories-container .story-content,
@@ -191,14 +209,15 @@ ul.nav.nav-tabs li:last-child {
 .stories-container .story-content div {
   /* margin-bottom: 2.5rem; */
   margin-top: 2.5rem;
+  
 }
 
 .stories-container .item-left img {
-  width: 30rem;
+  max-width: 30rem;
 }
 
 .stories-container .item-right p {
-  width: 30rem;
+  max-width: 30rem;
 }
 
 .stories-container > .item-container {
@@ -239,9 +258,9 @@ ul.nav.nav-tabs li:last-child {
 }
 
 .project.project-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3rem;
 }
 
 .project-item.project-right img {
@@ -257,8 +276,9 @@ ul.nav.nav-tabs li:last-child {
 .mentor-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  gap: 0.2rem;
-  width: 100vw;
+  gap: 1rem;
+ 
+  margin: 0 auto;
   font-size: 1.5rem;
 }
 
@@ -267,10 +287,14 @@ ul.nav.nav-tabs li:last-child {
   font-size: 1.2rem;
 }
 
-.mentor-img img {
-  opacity: 0.85;
+.mentor-container p{
+  max-width: 30rem;
+}
 
-  width: 30rem;
+.mentor-img img {
+  opacity: 0.80;
+
+  max-width: 100%;
 }
 /* ............... Media ........... */
 @media (min-width: 960px) {
@@ -284,6 +308,11 @@ ul.nav.nav-tabs li:last-child {
     grid-template-areas: "content content img";
   }
 
+  .main-item img {
+    width: 30rem;
+    
+    }
+
   .item-container {
     display: flex;
     width: 100%;
@@ -295,27 +324,45 @@ ul.nav.nav-tabs li:last-child {
   }
 
   .stories-container .item-right p {
-    width: 100%;
+    width: 50rem;
   }
+
+ 
 
   .stories-container .item-container div.item-left {
     display: inline-block;
     width: 100%;
   }
 
-  .mentor-img img {
-    opacity: 0.85;
 
-    width: 15rem;
+
+  .mentor-img img {
+    opacity: 0.80;
+
+    width: 20rem;
   }
+
+
 
   .project-item.project-right img {
     width: 40rem;
   }
 
+  .project.project-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
   .m-lg-left {
     margin-left: 1.5rem;
   }
+
+
+  .main-item .content p{
+    width: 50%;
+  }
+  
 }
 
 @media screen and (max-width: 968px) {
