@@ -13,8 +13,8 @@ body {
 
 /* ................ main container setttings ................ */
 .wrapper {
- width: 80vw;
- margin: 0 auto;
+ width: 75vw;
+ margin: 5rem auto;
  overflow-x: hidden;
 }
 
@@ -198,7 +198,7 @@ width: 100%;
 }
 
 .main-item .content p{
-  width: 80vw;
+  width: 75vw;
 }
 
 /* ................ Stories ................ */
@@ -228,7 +228,7 @@ width: 100%;
 }
 
 .item-container {
-  margin-bottom: 7rem;
+  margin-bottom: 5rem;
 }
 
 .item-2 > .item-left {
@@ -309,7 +309,7 @@ width: 100%;
   }
 
   .main-item img {
-    width: 30rem;
+    width: 70rem;
     
     }
 
@@ -324,14 +324,16 @@ width: 100%;
   }
 
   .stories-container .item-right p {
-    width: 50rem;
+    max-width: 100%;
   }
+
+ 
 
  
 
   .stories-container .item-container div.item-left {
     display: inline-block;
-    width: 100%;
+    /* width: 100%; */
   }
 
 
@@ -360,7 +362,7 @@ width: 100%;
 
 
   .main-item .content p{
-    width: 50%;
+    width: 100%;
   }
   
 }
