@@ -19,31 +19,23 @@ body {
 }
 
 .stories-container .item-left {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: block;
   color: #fff;
 }
 
-/* .stories-container .item-3 .item-left {
-  opacity: 0.80;
-  background-image: url("../images/image\ 3.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 30rem;
-  height: 19rem;
+.stories-container .date {
+  display: block;
+  position: absolute;
+  margin-top: -5rem;
+  margin-left: 1rem;
 }
 
-.stories-container .item-4 .item-left {
-  opacity: 0.80;
-  background-image: url("../images/image\ 4.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 30rem;
-  height: 19rem;
-} */
+.stories-container .number {
+  display: block;
+  position: absolute;
+  margin-top: -20rem;
+  margin-left: 27rem;
+}
 
 .item.item-left:hover {
   opacity: 0.95;
@@ -301,9 +293,9 @@ ul.nav.nav-tabs li:last-child {
 }
 
 .mentor-img img {
-  opacity: 0.95 ;
+  opacity: 0.95;
   max-width: 100%;
-  transition: opacity .2s;
+  transition: opacity 0.2s;
 }
 
 .mentor-img img:hover {
@@ -319,13 +311,14 @@ ul.nav.nav-tabs li:last-child {
   color: #fff;
   visibility: visible;
   opacity: 1;
-  transition: opacity .2s, visibility .2s;
+  transition: opacity 0.2s, visibility 0.2s;
 }
 
-.mentor-img:hover ~ .mentor-content .name { 
+.mentor-img:hover ~ .mentor-content .name {
   visibility: visible;
   opacity: 1;
 }
+
 /* ............... Media ........... */
 @media (min-width: 960px) {
   .wrapper {
@@ -391,7 +384,6 @@ ul.nav.nav-tabs li:last-child {
     width: 100%;
   }
 
-
   .mentor-content .name {
     position: absolute;
     margin-top: -5rem;
@@ -399,10 +391,10 @@ ul.nav.nav-tabs li:last-child {
     color: #fff;
     visibility: hidden;
     opacity: 0;
-    transition: opacity .2s, visibility .2s;
+    transition: opacity 0.2s, visibility 0.2s;
   }
-  
-  .mentor-img:hover ~ .mentor-content .name { 
+
+  .mentor-img:hover ~ .mentor-content .name {
     visibility: visible;
     opacity: 1;
   }
