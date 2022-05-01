@@ -15,12 +15,12 @@ body {
 /* ................ main container setttings ................ */
 .wrapper {
   width: 80vw;
-  margin: 5rem auto;
+  margin: 4rem auto;
   overflow-x: hidden;
 }
 
 .wrapper > div {
-  margin-bottom: 4rem;
+  margin-bottom: 3rem;
 }
 
 /* ................ stories container setttings ................ */
