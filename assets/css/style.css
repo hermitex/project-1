@@ -13,7 +13,7 @@ body {
 
 /* ................ main container setttings ................ */
 .wrapper {
- width: 75vw;
+ width: 80vw;
  margin: 5rem auto;
  overflow-x: hidden;
 }
@@ -198,7 +198,7 @@ width: 100%;
 }
 
 .main-item .content p{
-  width: 75vw;
+  width: 80vw;
 }
 
 /* ................ Stories ................ */
@@ -263,8 +263,17 @@ width: 100%;
   gap: 3rem;
 }
 
-.project-item.project-right img {
-  width: 20rem;
+.project-item.project-right  {
+  max-width: 30rem;
+  margin: 0 auto;
+}
+
+.project-item.project-right  img{
+  max-width: 100%;
+}
+
+.project.project-container .description{
+ max-width: 30rem;
 }
 
 /* ................ Technical Mentors ................ */
@@ -298,6 +307,13 @@ width: 100%;
 }
 /* ............... Media ........... */
 @media (min-width: 960px) {
+  .wrapper {
+    width: 75vw;
+    margin: 5rem auto;
+    overflow-x: hidden;
+   }
+
+
   .mentor-container {
     grid-template-columns: repeat(4, 1fr);
     width: auto;
@@ -347,7 +363,7 @@ width: 100%;
 
 
   .project-item.project-right img {
-    width: 40rem;
+    max-width: 40rem;
   }
 
   .project.project-container {
