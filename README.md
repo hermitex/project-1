@@ -81,6 +81,6 @@ SOFTWARE.
 ## Author's Details
 Feel free to reach out via:
 * StackOverflow Profile - [Tiberius Mairura](https://stackoverflow.com/users/11869442/tiberius)
-* Linked - [Albert Byrone](https://www.linkedin.com/in/tiberius-mairura/)
+* Linked - [Tiberius Mairura](https://www.linkedin.com/in/tiberius-mairura/)
 
 [Go Back to the top](#moringa-school-landing-page)
