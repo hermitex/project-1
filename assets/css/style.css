@@ -99,7 +99,7 @@ a {
 }
 
 a:link {
-  color: gray;
+  color: rgba(211, 211, 211, 0.938);
 }
 a:hover {
   color: black;
@@ -117,7 +117,7 @@ li {
 .btn-primary button,
 .btn-secondary button {
   background-color: #ec4067;
-  padding: 0.5rem 1.5rem;
+  padding: 0.9rem 1.8rem;
   color: #fff;
   font-size: 1.1rem;
   border-radius: 10px;
@@ -149,7 +149,10 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0.5rem 1rem;
+  padding-top: 1.5rem;
+
+  width: 80vw;
+  margin: 0 auto;
 }
 
 ul.nav.nav-tabs {
@@ -219,8 +222,7 @@ ul.nav.nav-tabs li:last-child {
 .stories-container .story-content,
 .stories-container .story-content p,
 .stories-container .story-content h1,
-.stories-container .story-content div
- {
+.stories-container .story-content div {
   /* margin-bottom: 2.5rem; */
   margin-top: 2.5rem;
 }
@@ -228,11 +230,10 @@ ul.nav.nav-tabs li:last-child {
 .project-container .project-item,
 .project-container .project-item p,
 .project-container .project-item h1,
-.project-container .project-item div  {
+.project-container .project-item div {
   /* margin-bottom: 2.5rem; */
   margin-top: 2rem;
 }
-
 
 .stories-container .item-left img {
   max-width: 30rem;
@@ -350,10 +351,22 @@ ul.nav.nav-tabs li:last-child {
   opacity: 1;
 }
 
+/* ................ Footer ................ */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  background-color: rgba(211, 211, 211, 0.938);
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  font-size: 1.2rem;
+}
+
 /* ............... Media ........... */
 @media (min-width: 960px) {
   .wrapper {
-    width: 75vw;
+    width: 65vw;
     margin: 5rem auto;
     overflow-x: hidden;
   }
@@ -453,6 +466,17 @@ ul.nav.nav-tabs li:last-child {
     margin-top: -3rem;
     margin-left: 17rem;
   }
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    background-color: rgba(211, 211, 211, 0.938);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 1.8rem;
+  }
 }
 
 @media screen and (max-width: 968px) {
@@ -478,6 +502,6 @@ ul.nav.nav-tabs li:last-child {
     line-height: 2.3rem;
   }
   .project-item.project-right img {
-    max-width: 40rem;
+    max-width: 35rem;
   }
 }
