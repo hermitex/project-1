@@ -368,7 +368,7 @@ ul.nav.nav-tabs li:last-child {
 /* ............... Media ........... */
 @media (min-width: 960px) {
   .wrapper {
-    width: 65vw;
+    width: 70vw;
     margin: 5rem auto;
     overflow-x: hidden;
   }
@@ -512,5 +512,11 @@ ul.nav.nav-tabs li:last-child {
   }
   .project-item.project-right img {
     max-width: 35rem;
+  }
+
+  .wrapper {
+    width: 65vw;
+    margin: 5rem auto;
+    overflow-x: hidden;
   }
 }
