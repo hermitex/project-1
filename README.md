@@ -7,8 +7,8 @@ The page was built from scratch based the design provided by the Technical Mento
 ## Setup/Installation Requirements
 * Fork and clone the repository from this repository or simply dowload the repository and unzip it on your local machine
 * In case you download the repository
- * Navigate to the download folder
- * Uzip the repository using you favorite zip application
+  * Navigate to the download folder
+  * Uzip the repository using you favorite zip application
 * Locate the index.html file and double click it
 * The page should start on your favorite browser
 ### OR
