@@ -363,7 +363,7 @@ width: 100%;
 
 
   .project-item.project-right img {
-    max-width: 33rem;
+    max-width: 40rem;
   }
 
   .project.project-container {
@@ -393,4 +393,17 @@ width: 100%;
       justify-content: space-between;
   }
 
+ 
+
+  
+
+
 }
+
+
+@media screen and (max-width: 768px) {
+ 
+
+  .project-item.project-right img {
+    max-width: 100%;
+  }
