@@ -219,10 +219,20 @@ ul.nav.nav-tabs li:last-child {
 .stories-container .story-content,
 .stories-container .story-content p,
 .stories-container .story-content h1,
-.stories-container .story-content div {
+.stories-container .story-content div
+ {
   /* margin-bottom: 2.5rem; */
   margin-top: 2.5rem;
 }
+
+.project-container .project-item,
+.project-container .project-item p,
+.project-container .project-item h1,
+.project-container .project-item div  {
+  /* margin-bottom: 2.5rem; */
+  margin-top: 2rem;
+}
+
 
 .stories-container .item-left img {
   max-width: 30rem;
