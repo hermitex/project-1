@@ -8,8 +8,8 @@
 
 ## Table of Content
 - [Moringa School Landing Page](#moringa-school-landing-page)
-      - [A simple static page to showcase MOringa School Landing Page, 01/05/2022](#a-simple-static-page-to-showcase-moringa-school-landing-page-01052022)
-      - [By Tiberius Mairura](#by-tiberius-mairura-the-hermit)
+      - [A simple static page(Moringa School Landing Page), 01/05/2022](#a-simple-static-pagemoringa-school-landing-page-01052022)
+      - [By Tiberius Mairura (The Hermit)](#by-tiberius-mairura-the-hermit)
   - [Screenshot](#screenshot)
   - [Table of Content](#table-of-content)
   - [Description](#description)
