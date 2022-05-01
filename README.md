@@ -46,7 +46,7 @@ As a user you should be able to see:
  ****
 [Go Back to the top](#moringa-school-landing-page)
 ### Live Link
-- Click this link to view the live application https://albert-byrone.github.io/delani/
+- Click this link to view the live application https://hermitex.github.io/project-1/
 ### Technology  Used
 * HTML -to develop the structure off the page
 * CSS - to style the User Interface
